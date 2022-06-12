@@ -1,0 +1,65 @@
+/* common style */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  background-color: #f7f7f7;
+  height: 100vh;
+}
+.btn {
+  font-size: 20px;
+  color: #fff;
+
+  background-color: #02020f;
+  border-radius: 5px;
+  padding: 8px 12px;
+}
+
+input {
+  padding: 8px;
+  font-size: 20px;
+  border: 1px solid #02020f;
+}
+
+/* header */
+header {
+  height: 13%;
+  display: flex;
+  gap: 50px;
+  padding: 30px;
+}
+
+.btn:hover {
+  background-color: #28020f;
+  cursor: pointer;
+}
+
+.input-warn {
+  border: 1.5px solid #c00000
+}
+
+/* .section */
+
+.section {
+  height: 87%;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+}
+
+.block {
+  background-color: #eee;
+  padding: 24px;
+  cursor: pointer;
+}
+
+.block p {
+  font-size: 20px;
+}
+
+.block-white {
+  color: white;
+}
